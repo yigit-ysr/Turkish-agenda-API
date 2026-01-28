@@ -160,5 +160,6 @@ news = News()
 #Create the /news endpoint
 @app.get("/news")
 def get_news():
-    #Returning api response
+    #Return api response
     return news.get_news()
+
